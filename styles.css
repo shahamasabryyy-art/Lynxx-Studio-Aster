@@ -733,9 +733,10 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
-  .hero { min-height: 78vh; }
-  .hero-inner { padding-top: 100px; padding-bottom: 90px; }
-  .hero-badge { position: static; margin-top: 32px; text-align: left; }
+  .hero { min-height: auto; }
+  .hero-inner { padding-top: 80px; padding-bottom: 60px; }
+  .hero-badge { position: static; margin-top: 28px; text-align: left; }
+  .hero-scroll { display: none; }
 
   .work-list { grid-template-columns: 1fr; }
   .work-index { position: static; display: block; margin-bottom: 8px; }
@@ -756,7 +757,7 @@ img { max-width: 100%; display: block; }
   .team-list { grid-template-columns: repeat(2, 1fr); gap: 20px; }
 
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .footer-bottom { flex-direction: column; gap: 8px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
 
   .nav {
     display: none;

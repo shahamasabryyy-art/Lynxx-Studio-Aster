@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Aster: Brand & Web Design</title>
+<meta name="description" content="Studio Aster is a small Colombo-based studio designing brands and websites for people who make things well.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<div class="corner-mark corner-tl" aria-hidden="true"></div>
+<div class="corner-mark corner-tr" aria-hidden="true"></div>
+<div class="corner-mark corner-bl" aria-hidden="true"></div>
+<div class="corner-mark corner-br" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#" class="mark">Studio Aster</a>
+    <nav class="nav" id="nav">
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#services">Services</a>
+      <a href="#studio">Studio</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="background-image:url('images/herolotustower.jpg')" role="img" aria-label="The Lotus Tower and Colombo skyline">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="kicker reveal-item"><span class="kicker-rule"></span>Brand &amp; Web Design Studio</p>
+      <h1>
+        <span class="line">We Give Good</span>
+        <span class="line">Ideas a Shape</span>
+        <span class="line"><em>Worth Tusting.</em></span>
+      </h1>
+      <p class="hero-sub reveal-item">Studio Aster works with founders and small teams to build brands and websites that feel considered, not templated. Six people, based in Colombo, working with clients everywhere.</p>
+      <a href="#contact" class="btn btn-primary reveal-item">Start a Project</a>
+    </div>
+    <div class="hero-badge reveal-item">
+      <span class="hero-count">14</span>
+      <span class="hero-count-label">Projects This Year</span>
+    </div>
+    <a href="#work" class="hero-scroll" aria-label="Scroll to work"><span></span></a>
+  </section>
+
+  <section class="clients">
+    <div class="wrap clients-row">
+      <span class="clients-label">Trusted by</span>
+      <div class="clients-marquee">
+        <div class="clients-track" id="clientsTrack">
+          <span>Ceylon Roasters</span>
+          <span>Serendib Architects</span>
+          <span>Negombo Sail Co.</span>
+          <span>Spice Trail Goods</span>
+          <span>Villa Cinnamon</span>
+          <span>Galle Fort &amp; Co.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>Selected Work</h2>
+        <p>A few projects we're proud to put our name on.</p>
+      </div>
+      <div class="work-list">
+        <article class="work-item">
+          <span class="work-index">N&deg;01</span>
+          <div class="work-image-wrap">
+            <div class="work-image" style="background-image:url(images/ceylonroasters.jpg)" role="img" aria-label="Coffee cup styled for the Ceylon Roasters brand identity, photographed in Sri Lanka"></div>
+          </div>
+          <div class="work-meta">
+            <h3>Ceylon Roasters</h3>
+            <p>Identity, packaging and a website for a small-batch coffee roaster in Colombo.</p>
+            <span class="work-tags">Branding · Web · Packaging</span>
+          </div>
+        </article>
+        <article class="work-item">
+          <span class="work-index">N&deg;02</span>
+          <div class="work-image-wrap">
+            <div class="work-image" style="background-image:url(images/serandibarchitects.jpg)" role="img" aria-label="Tropical modernist villa in Ahangama, Sri Lanka, representing the Serendib Architects portfolio site"></div>
+          </div>
+          <div class="work-meta">
+            <h3>Serendib Architects</h3>
+            <p>A portfolio site and print system for an architecture practice in Colombo.</p>
+            <span class="work-tags">Web · Print</span>
+          </div>
+        </article>
+        <article class="work-item">
+          <span class="work-index">N&deg;03</span>
+          <div class="work-image-wrap">
+            <div class="work-image" style="background-image:url(images/negombosail.jpg)" role="img" aria-label="Traditional boat on the beach in Nilwella, Sri Lanka, for the Negombo Sail Co. brand"></div>
+          </div>
+          <div class="work-meta">
+            <h3>Negombo Sail Co.</h3>
+            <p>Brand identity and launch site for a sailing equipment maker on the west coast.</p>
+            <span class="work-tags">Branding · Web</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pull-quote">
+    <div class="wrap">
+      <p class="reveal-block">"Good design disappears. What's left is a business that feels <em>obviously</em> trustworthy."</p>
+      <span class="pull-quote-attr reveal-block">— Studio Aster's founding note, 2019</span>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>How We Work</h2>
+        <p>Four stages, the same on every project.</p>
+      </div>
+      <ol class="process-list">
+        <li class="process-item">
+          <span class="process-num">01</span>
+          <div>
+            <h3>Discover</h3>
+            <p>We spend the first two weeks asking questions before we open a design file. Questions about the business, the audience, and what "good" looks like for you.</p>
+          </div>
+        </li>
+        <li class="process-item">
+          <span class="process-num">02</span>
+          <div>
+            <h3>Design</h3>
+            <p>Concepts, then refinement. You'll see real layouts and real type early, not moodboards standing in for decisions.</p>
+          </div>
+        </li>
+        <li class="process-item">
+          <span class="process-num">03</span>
+          <div>
+            <h3>Build</h3>
+            <p>We hand-code every site ourselves. No page builders, no bloated templates. Just fast, clean pages.</p>
+          </div>
+        </li>
+        <li class="process-item">
+          <span class="process-num">04</span>
+          <div>
+            <h3>Launch</h3>
+            <p>We stay on for a month after launch to fix the small things only real usage reveals.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>What Clients Say</h2>
+      </div>
+      <div class="testimonial-list">
+        <figure class="testimonial">
+          <blockquote>They asked harder questions about our business than our own team had. The site that came out of it actually sells.</blockquote>
+          <figcaption>Nadeesha Perera, Ceylon Roasters</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>No middle layer of account managers. Just the two people doing the work, replying within hours.</blockquote>
+          <figcaption>Dinesh Fernando, Serendib Architects</figcaption>
+        </figure>
+        <figure class="testimonial">
+          <blockquote>Our old site looked like everyone else's. This one looks like us.</blockquote>
+          <figcaption>Amaya Jayasuriya, Negombo Sail Co.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>What We Do</h2>
+        <p>Six disciplines, one small team handling every one of them.</p>
+      </div>
+      <div class="services-list">
+        <div class="service-row">
+          <h3>Brand Identity</h3>
+          <p>Naming, mark, colour and type systems built to hold up across every surface a brand touches.</p>
+          <span class="service-includes">Naming · Logo · Colour &amp; type system · Brand guidelines</span>
+        </div>
+        <div class="service-row">
+          <h3>Web Design &amp; Build</h3>
+          <p>Marketing sites and small products, designed and coded by the same hands that shipped this page.</p>
+          <span class="service-includes">UX &amp; wireframes · Visual design · Hand-coded build · CMS setup</span>
+        </div>
+        <div class="service-row">
+          <h3>Art Direction</h3>
+          <p>Photography, packaging and campaign direction for teams who need a second eye.</p>
+          <span class="service-includes">Photo direction · Campaign concepts · Creative review</span>
+        </div>
+        <div class="service-row">
+          <h3>Motion &amp; Interaction</h3>
+          <p>Small, purposeful animation that explains rather than decorates: loading states, transitions, product walkthroughs.</p>
+          <span class="service-includes">Micro-interactions · Product demos · Launch videos</span>
+        </div>
+        <div class="service-row">
+          <h3>Content &amp; Copy</h3>
+          <p>Website copy, product naming and brand voice written to be read, not skimmed past.</p>
+          <span class="service-includes">Website copy · Tone of voice · Product naming</span>
+        </div>
+        <div class="service-row">
+          <h3>Packaging &amp; Print</h3>
+          <p>Physical materials, like packaging, business cards and signage, designed to match the same standard as the screen.</p>
+          <span class="service-includes">Packaging · Stationery · Signage &amp; Environmental</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recognition">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>Recognition</h2>
+      </div>
+      <div class="recognition-grid">
+        <div class="recognition-item reveal-block">
+          <span class="recognition-year">2025</span>
+          <p>AWards Site of the Day for the Negombo Sail Co. launch site</p>
+        </div>
+        <div class="recognition-item reveal-block">
+          <span class="recognition-year">2024</span>
+          <p>Best of Show, Sri Lanka Design Festival, for the Ceylon Roasters identity</p>
+        </div>
+        <div class="recognition-item reveal-block">
+          <span class="recognition-year">2024</span>
+          <p>Shortlist, Communication Arts Design Annual</p>
+        </div>
+        <div class="recognition-item reveal-block">
+          <span class="recognition-year">2023</span>
+          <p>Gold, Vega Awards Sri Lanka, brand identity category</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="studio" id="studio">
+    <div class="wrap studio-grid">
+      <h2 class="reveal-block">The Studio</h2>
+      <div class="studio-copy">
+        <p class="reveal-block">Studio Aster started in 2019 as two designers working out of a spare room in Colombo, and grew slowly into a team of six who still believe the smallest details are the ones people feel first.</p>
+        <p class="reveal-block">We keep our client list short on purpose. Every project gets the same two founders in the room from the first sketch to the last line of CSS.</p>
+        <div class="stats-row reveal-block">
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">People</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">45+</span>
+            <span class="stat-label">Projects Since 2019</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Countries Worked With</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>Who You'll Work With</h2>
+        <p>The two founders sit on every project.</p>
+      </div>
+      <div class="team-list">
+        <div class="team-item reveal-block">
+          <div class="team-photo" style="background-image:url(images/person1.jpg)" role="img" aria-label="Portrait of Ishara Jayasinghe"></div>
+          <h3>Ishara Jayasinghe</h3>
+          <p>Founder, Design</p>
+        </div>
+        <div class="team-item reveal-block">
+          <div class="team-photo" style="background-image:url(images/person2.jpg)" role="img" aria-label="Portrait of Kavindu Perera"></div>
+          <h3>Kavindu Perera</h3>
+          <p>Founder, Engineering</p>
+        </div>
+        <div class="team-item reveal-block">
+          <div class="team-photo" style="background-image:url(images/person3.jpg)" role="img" aria-label="Portrait of Anjali Wickramasinghe"></div>
+          <h3>Anjali Wickramasinghe</h3>
+          <p>Art Direction</p>
+        </div>
+        <div class="team-item reveal-block">
+          <div class="team-photo" style="background-image:url(images/person4.jpg)" role="img" aria-label="Portrait of Chamath Silva"></div>
+          <h3>Chamath Silva</h3>
+          <p>Copy &amp; Content</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal-block">
+        <h2>Common Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How much does a project cost?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Brand identity projects typically start around LKR 1,200,000. Website design and build starts around LKR 1,800,000. Every quote is scoped to the specific project after our first call.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long does a project take?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>A brand identity usually takes 6–8 weeks. A full website adds another 6–10 weeks on top, depending on scope and how quickly feedback comes back to us.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How many rounds of revisions are included?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Two structured rounds of feedback are built into every project phase. Most clients don't need a third, but we'll always keep working until it's right.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer support after launch?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Every project includes a month of post-launch support, and most clients keep us on a small monthly retainer afterward for updates and new pages.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you work with clients outside Sri Lanka?</span>
+            <span class="faq-icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Most of our clients are remote. We run projects over video calls and async updates, and we're happy to overlap with most timezones for calls.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap cta-inner">
+      <h2 class="reveal-block">Have a Project in Mind?</h2>
+      <p class="reveal-block">Tell us what you're building. We reply to every email ourselves, usually within a day.</p>
+      <a href="mailto:hello@studioaster.com" class="btn btn-primary reveal-block">hello@studioaster.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-col">
+      <a href="#" class="mark">Studio Aster</a>
+      <p>A small brand &amp; web design studio based in Colombo, working with clients everywhere.</p>
+    </div>
+    <div class="footer-col">
+      <span class="footer-heading">Sitemap</span>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#services">Services</a>
+      <a href="#studio">Studio</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <span class="footer-heading">Contact</span>
+      <a href="mailto:hello@studioaster.com">hello@studioaster.com</a>
+      <a href="tel:+94112345678">+94 11 234 5678</a>
+      <span class="footer-address">Galle Road, Colombo 03, Sri Lanka</span>
+    </div>
+    <div class="footer-col">
+      <span class="footer-heading">Follow</span>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Are.na</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span id="year"></span> Studio Aster</span>
+    <span>Designed &amp; Built in Colombo</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
